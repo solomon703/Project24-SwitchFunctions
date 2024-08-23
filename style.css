@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  background-color: #000;
+  color: #fff;
+  height: 80vh;
+  width: 25%;
+  margin-top: 5%;
+  margin-left: 37%;
+  position: relative;
+}
+.main img{
+  height: 60vh;
+  width: 100%;
+  margin-top: 16%;
+  position: relative;
+}
+.main .bulb{
+  position: absolute;
+  top: 0%;
+}
+.main .bulb img{
+  height: 100px;
+  width: 80px;
+  margin-left: 220%;
+}
+.main .butons{
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+.main .butons h3{
+  margin-left: 70px;
+  background-color: red;
+  width: 140px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.new-class{
+  margin-left: 70px;
+  background-color: black;
+  color: #fff;
+  width: 140px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.main .butons button{
+ margin-right: 20px;
+ margin-top: 30px;
+ margin-left: 10px;
+ padding: 5px;
+ border-radius: 10px;
+ outline: none;
+ border: none;
+ font-size: 20px;
+ background-color: #fff;
+ color: #000;
+ font-weight: 700;
+ cursor: pointer;
+ transition: all 1s ease;
+}
+.main .butons button:hover{
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
